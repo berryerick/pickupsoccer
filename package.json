@@ -1,0 +1,33 @@
+{
+  "name": "pickupSoccer",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "babel src -d lib",
+    "start": "babel-watch src/app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/berryerick/pickupsoccer.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/berryerick/pickupsoccer/issues"
+  },
+  "homepage": "https://github.com/berryerick/pickupsoccer#readme",
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.7.0",
+    "babel-watch": "^2.0.7"
+  },
+  "dependencies": {
+    "babel-core": "^6.26.3",
+    "ejs": "^2.6.1",
+    "express": "^4.16.3",
+    "mongodb": "^3.1.1"
+  }
+}
